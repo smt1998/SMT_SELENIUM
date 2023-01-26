@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Kk]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test1(failed)">
+    <classes>
+      <class name="testpractice.Practice1">
+        <methods>
+          <include name="loginButton"/>
+          <include name="launch"/>
+          <include name="BeforeMethod"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testpractice.Practice1 -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Kk] -->

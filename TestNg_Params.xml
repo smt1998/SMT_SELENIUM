@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite_Params">
+  <test thread-count="1" name="Test_Params">
+    <classes>
+    <parameter name="userinput" value="sumit@123">
+      <class name="TestNG_Program.Param1"/>
+      </parameter>
+    </classes>
+  </test> <!-- Test_Params -->
+</suite> <!-- Suite_Params -->

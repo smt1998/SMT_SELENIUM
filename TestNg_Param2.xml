@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite_Param2">
+  <test thread-count="1" name="Test_Param2">
+    <classes>
+    <parameter name="browser" value="edge">
+      <class name="TestNG_Program.Param2"/>
+      </parameter>
+    </classes>
+  </test> <!-- Test_Param2 -->
+</suite> <!-- Suite_Param2 -->

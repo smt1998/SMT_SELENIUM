@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="GRP">
+<groups>
+<run>
+
+<include name="retesting"></include>
+<exclude name="smoke"></exclude>
+
+
+<exclude name="retesting"></exclude>
+
+
+</run>
+</groups>
+
+  <test thread-count="1" name="MUTGRPTEST">
+    <classes>
+      <class name="groups.GrpClass1"/>
+      <class name="groups.GrpClass2"/>
+    </classes>
+  </test> <!-- MUTGRPTEST -->
+</suite> <!-- GRP -->
+
